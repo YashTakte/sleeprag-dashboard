@@ -140,7 +140,7 @@ st.markdown(f"""
 # ---------------------------------------------------------------------------
 # Data
 # ---------------------------------------------------------------------------
-PSM_DIR = Path(__file__).parent / "data" / "derived" / "psm_model_selection"
+PSM_DIR = Path(__file__).parent
 
 
 @st.cache_data
